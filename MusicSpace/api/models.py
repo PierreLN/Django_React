@@ -17,4 +17,4 @@ class Room(models.Model):
     host = models.CharField(max_length=50, unique=True)
     guest_can_pause = models.BooleanField(default=False, null=False)
     votes_to_skip = models.IntegerField(default=False, null=False)
-    create_at = models.DateTimeField(auto_now_add=True)
+    created_at = models.DateTimeField(auto_now_add=True)
