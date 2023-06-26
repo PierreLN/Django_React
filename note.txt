@@ -1,0 +1,11 @@
+
+TO START THE REACT PART INSTALLATION 
+GOTO - Django_React\MusicSpace\frontend
+npm npm init -y
+npm i webpack webpack-cli --save-dev
+npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
+npm i react react-dom --save-dev
+npm install @material-ui/core OR npm install @material-ui/core --legacy-peer-deps
+npm install @babel/plugin-proposal-class-properties
+npm install react-router-dom
+npm install @material-ui/icons
