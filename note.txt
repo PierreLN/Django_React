@@ -9,3 +9,14 @@ npm install @material-ui/core OR npm install @material-ui/core --legacy-peer-dep
 npm install @babel/plugin-proposal-class-properties
 npm install react-router-dom
 npm install @material-ui/icons
+
+MAKE WEBPACK.CONFIG AND BABEL.CONFIG
+
+IN package.json
+  "scripts": {
+    "dev": "webpack --mode development --watch", for reload
+    "build": "webpak --mode production"
+  }
+
+
+
