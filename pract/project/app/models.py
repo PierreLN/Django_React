@@ -4,5 +4,5 @@ from django.db import models
 
 
 class React(models.Model):
-    employee = models.models.CharField(max_length=50)
-    department = models.models.CharField(max_length=200)
+    employee = models.CharField(max_length=50)
+    department = models.CharField(max_length=200)

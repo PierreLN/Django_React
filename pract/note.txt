@@ -1,0 +1,17 @@
+In BASH
+
+pip install pipenv - with admin permission
+pipenv install djangorestframework
+
+pipenv install django-cors-headers
+
+
+
+
+pip install django pip install mysql pip install mysql-connector-python
+
+python -m django startproject dcrm cd /dcrm/ python manage.py startapp website
+
+python manage.py migrate python manage.py createsuperuser python manage.py runserver
+
+python manage.py makeMigrations python manage.py migrate
