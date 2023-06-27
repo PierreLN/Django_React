@@ -1,0 +1,3 @@
+pipenv install djangorestframework
+pipenv install django-cors-headers
+python -m django startproject project
